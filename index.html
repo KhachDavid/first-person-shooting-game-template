@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" >
+    <meta charset="utf-8">
+    <title>HW5 David Khachatryan</title>
+
+    <style>
+        #myCanvas {
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="myCanvas" width="1000" height="700"></canvas>
+    <div></div>
+
+    <span style="display: inline-block; width: 200px;">Walk around </span>
+    <input id="walk" type="range" width="150" min="10" max="40">
+    <div></div>
+
+    <span style="display: inline-block; width: 200px;">Turn around </span>
+    <input id="turn" type="range" width="150" min="-4" max="4">
+    <div></div>
+
+    <span style="display: inline-block; width: 200px;">Move around </span>
+    <input id="cross" type="range" width="150" min="-4" max="4">
+    <div></div>
+    
+    <script src="twgl.js"></script>
+    <script src="helpers.js"></script>
+    <script src="FancyTriangles.js"></script>
+    <script src="variables.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
